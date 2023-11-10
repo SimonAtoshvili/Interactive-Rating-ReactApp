@@ -8,7 +8,7 @@ function App() {
   const [which, setWhich] = useState(false)
   return (
     <div>
-      {(which && (num > 0))
+      {which
         ?
         <div className='content'>
           <Submitted num={num} />
